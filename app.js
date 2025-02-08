@@ -7,9 +7,9 @@ app.use(cors());
 
 app.get('/', (req, res) => {
     res.json({
-        email: "opedamola003@gmail.com",  // Replace with your registered HNG12 email
+        email: "opedamola003@gmail.com",  
         current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/yourusername/your-repo" // Replace with your GitHub repo URL
+        github_url: "https://github.com/Oyinade003/HNG_Stage0" 
     });
 });
 

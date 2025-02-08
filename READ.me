@@ -1,0 +1,54 @@
+# HNG12 Stage 0 Backend Task - Public API
+
+## Project Overview
+This is a simple public API for HNG12 Stage 0 Backend Task. The API returns the following information in JSON format:
+- Your registered email address (HNG12 Slack workspace email)
+- The current datetime in ISO 8601 format (UTC)
+- The GitHub URL of the project's codebase
+
+## Technology Stack
+- **Programming Language:** Node.js
+- **Framework:** Express.js
+- **Deployment:** Railway
+- **CORS Handling:** Enabled using the `cors` package
+
+## API Endpoint
+**GET /**
+
+### Response Format (200 OK)
+```json
+{
+  "email": "your-email@example.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "https://github.com/yourusername/your-repo"
+}
+```
+
+## Setup Instructions
+### Prerequisites
+- Install [Node.js](https://nodejs.org/)
+
+### Installation
+```sh
+# Clone the repository
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+# Install dependencies
+npm install
+
+# Start the server
+node app.js
+```
+
+## Deployment Instructions
+- Deploy the API on **Render, Vercel, or Railway** for public accessibility.
+
+## Example Usage
+- Run locally: `node app.js`
+- Access: `http://localhost:3000/`
+- Deployed URL: `https://your-deployed-api-url/`
+
+## Hiring Backlink
+[Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
+
